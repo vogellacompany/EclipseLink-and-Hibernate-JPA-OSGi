@@ -6,5 +6,12 @@
 <repository location="http://download.eclipse.org/rt/eclipselink/updates/"/>
 </location>
 
-<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit"><unit id="org.eclipse.equinox.sdk.feature.group" version="3.13.3.v20180301-1149"/><unit id="org.eclipse.sdk.ide" version="4.7.3.M20180301-0715"/><repository location="http://download.eclipse.org/eclipse/updates/4.7"/></location><location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit"><unit id="h2.feature.group" version="1.4.197"/><unit id="h2.source.feature.group" version="1.4.197"/><unit id="hibernate-osgi.feature.group" version="5.2.16.Final"/><unit id="hibernate-osgi.source.feature.group" version="5.2.16.Final"/><repository location="https://dl.bintray.com/simon-scholz/H2-Database-Engine/"/></location></locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+	<unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
+	<unit id="org.eclipse.sdk.ide" version="0.0.0"/><repository location="http://download.eclipse.org/eclipse/updates/latest"/>
+</location><location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+	<unit id="h2.feature.group" version="1.4.197"/>
+	<unit id="h2.source.feature.group" version="1.4.197"/><unit id="hibernate-osgi.feature.group" version="5.2.16.Final"/>
+	<unit id="hibernate-osgi.source.feature.group" version="5.2.16.Final"/>
+	<repository location="https://dl.bintray.com/simon-scholz/H2-Database-Engine/"/></location></locations>
 </target>

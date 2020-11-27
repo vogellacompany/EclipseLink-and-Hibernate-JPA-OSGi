@@ -1,7 +1,7 @@
 
 package com.vogella.jpa.e4.client.parts;
 
-import javax.annotation.PostConstruct;
+import javax.inject.Inject;
 
 import org.eclipse.jface.viewers.ArrayContentProvider;
 import org.eclipse.jface.viewers.ColumnLabelProvider;
@@ -15,7 +15,7 @@ import com.vogella.jpa.model.TodoService;
 
 public class JpaTablePart {
 
-	@PostConstruct
+	@Inject
 	public void postConstruct(Composite parent, TodoService todoService) {
 
 		TableViewer viewer = new TableViewer(parent);
